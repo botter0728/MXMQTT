@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/apex/log" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/eclipse/paho.mqtt.golang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/go-kit/kit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/pkg/errors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/rs/zerolog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/sirupsen/logrus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/stretchr/testify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/wonderivan/logger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/go.uber.org/atomic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/go.uber.org/multierr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/go.uber.org/zap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/net" vcs="Git" />
+  </component>
+</project>
