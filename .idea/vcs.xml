@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/apex/log" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/botter0728/mxmqtt" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/eclipse/paho.mqtt.golang" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/go-kit/kit" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/pkg/errors" vcs="Git" />

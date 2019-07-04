@@ -1,4 +1,4 @@
-package stype
+package types
 
 import (
 	"github.com/eclipse/paho.mqtt.golang/packets"
