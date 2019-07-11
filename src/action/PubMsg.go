@@ -24,37 +24,6 @@ func pub(conn net.Conn) {
 
 //发布消息确认 Publish Ack
 func pubAck(conn net.Conn) {
-	//读取连接的数据包
-	readPacket, readErr := packets.ReadPacket(conn)
-
-	if readErr != nil {
-		logger.Error("[ACTION] Error handler publish ack on ", readErr)
-	}
-
-	if readPacket == nil {
-		logger.Error("[ACTION] Error handler publish  receive readPacket nil")
-		return
-	}
-
-	//读取连接类型的数据包
-	publishPacket, ok := readPacket.(*packets.PublishPacket)
-
-	if !ok {
-		logger.Error("[ACTION] Error receive publish msg that was not right")
-		return
-	}
-
-	logger.Info("[ACTION] receive message id:  ", zap.String("MessageID", string(publishPacket.MessageID)))
-
-	//连接反馈
-	connAck := packets.NewControlPacket(packets.Connack).(*packets.ConnackPacket)
-	connAck.ReturnCode = packets.Accepted
-	connAck.SessionPresent = connectPacket.CleanSession
-	writeErr :=  connAck.Write(conn)
-
-	if writeErr != nil {
-		logger.Error("[ACTION] connAck write Error  ", writeErr)
-	}
 }
 
 
